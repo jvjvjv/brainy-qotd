@@ -1,15 +1,25 @@
 {
-  "name": "brainy-quote-scrape",
+  "name": "brainy-qotd",
   "version": "1.0.0",
   "type": "module",
-  "description": "Grabs the current quote of the day",
+  "description": "Grabs the current quote of the day from Brainy Quote.",
   "main": "index.js",
+  "bin": {
+    "brainy-qotd": "./index.js"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Jason Vertucio",
+    "email": "me@jasonvertucio.com",
+    "url": "https://jasonvertucio.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvjvjv/brainy-qotd.git"
+  },
+  "license": "Apache-2.0",
   "devDependencies": {
     "luxon": "^2.1.1",
     "puppeteer": "^12.0.1"

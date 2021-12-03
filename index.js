@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import puppeteer from "puppeteer";
 import { DateTime } from "luxon";
 import { existsSync, writeFile } from "fs";
