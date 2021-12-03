@@ -1,6 +1,6 @@
 {
   "name": "brainy-qotd",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Grabs the current quote of the day from Brainy Quote.",
   "main": "index.js",
